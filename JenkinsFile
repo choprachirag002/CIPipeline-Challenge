@@ -1,6 +1,9 @@
 pipeline{
    agent any
   stages {
+     stage('Fetch'){
+         git url :'https://github.com/choprachirag002/CIPipeline-Challenge.git' branch:'master'
+     }
      stage('Compile'){
       steps{
         echo 'Compile'

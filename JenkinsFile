@@ -40,7 +40,7 @@ pipeline{
      steps{
      
      rtUpload (
-    serverId: Jfrog',
+    serverId: 'Jfrog',
     spec: '''{
           "files": [
             {
